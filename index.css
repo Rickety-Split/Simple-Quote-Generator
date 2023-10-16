@@ -1,0 +1,81 @@
+
+body {
+    background: #1f223b;
+    color: #dbdbd9;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  #vector {
+    background: linear-gradient(90deg, #1a1c2b, #1c2038);
+    border-radius: 0px 0px 1000px 0px;
+    height: 700px;
+    width: 700px;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  
+  #quoteBody {
+    background: none;
+    /*    linear-gradient(90deg, #37434c, #262b30);*/
+    padding: 20px 10px;
+    border-radius: 5px;
+    line-height: 200%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 30px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #quoteAttribution {
+    font-size: 25px;
+  }
+  
+  button {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #16208a, #46168a);
+    color: #dbdbd9;
+    font-weight: 900;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: none;
+  }
+  
+  #copy-quote {
+    background: none;
+    font-weight: normal;
+    font-size: medium;
+    margin-top: 70px;
+    color: #8f8e8c;
+    padding: 5px;
+  }
+  
+  #generate-quote:active {
+    background: #171d22;
+    color: #8f8e8c;
+  }
+  
+  #copy-quote:active {
+    background: #8f8e8c;
+    color: #1a1b24;
+  }
+  
+  #copied-successfully {
+    color: #8f8e8c;
+  }
