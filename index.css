@@ -1,59 +1,18 @@
-@media only screen and (max-width: 600px) {
-  /* Adjust styles for small screens */
-
-  * {
-    margin: 0 auto;
-  }
-
-  body {
-    color: #dbdbd9;
-    font-family: sans-serif;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 25px;
-    padding-bottom: 30px;
-  }
-
-  #quoteBody {
-    font-size: 5px;
-    margin-bottom: 10px;
-  }
-
-  #quoteAttribution {
-    font-size: 9px;
-    margin-top: 70px;
-    padding-top: 20px;
-  }
-
-  button {
-    margin-top: 30px;
-    font-size: medium;
-  }
-
-  #generate-quote {
-    margin-top: 30px;
-  }
-
-  #copy-quote {
-    font-size: small;
-    margin-top: 30px;
-  }
+:root {
+  --vw-unit: 1.5vw;
 }
-
-/* Desktop View */
 
 body {
     background: #1f223b;
     color: #dbdbd9;
     font-family: sans-serif;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: calc(40px + var(--vw-unit));
   }
   
   h1 {
-    font-size: 40px;
+    font-size:calc(30px + 3vw);
+    margin-bottom: calc(30px + 3vw);
   }
   
   #vector {
@@ -69,30 +28,28 @@ body {
   
   #quoteBody {
     background: none;
-    /*    linear-gradient(90deg, #37434c, #262b30);*/
     padding: 20px 10px;
     border-radius: 5px;
     line-height: 200%;
     max-width: 700px;
-    margin: 0 auto;
-    margin-top: 50px;
     font-style: italic;
-    font-size: 30px;
+    font-size:calc(17px + var(--vw-unit));
     height: 70px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    margin-top: calc(20px + var(--vw-unit));;
   }
   
   #quoteAttribution {
-    font-size: 25px;
+    font-size:calc(20px + var(--vw-unit));
+    margin-top: calc(40px + var(--vw-unit));
   }
   
   button {
     position: relative;
     display: block;
     margin: 0 auto;
-    margin-top: 100px;
     background: linear-gradient(45deg, #16208a, #46168a);
     color: #dbdbd9;
     font-weight: 900;
@@ -106,13 +63,13 @@ body {
     background: none;
     font-weight: normal;
     font-size: medium;
-    margin-top: 70px;
+    margin-top: 30px;
     color: #8f8e8c;
     padding: 5px;
   }
 
   #generate-quote {
-    margin-top: 30px;
+    margin-top: calc(50px + 3vw);
   }
   
   #generate-quote:active {
