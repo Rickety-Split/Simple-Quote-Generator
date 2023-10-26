@@ -2,6 +2,10 @@
   /* Adjust styles for small screens */
   body {
     margin-top: 50px;
+    color: #dbdbd9;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
   }
 
   h1 {
