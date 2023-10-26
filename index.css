@@ -14,15 +14,17 @@
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   #quoteBody {
-    font-size: 20px;
+    font-size: 10px;
+    margin-bottom: 10px;
   }
 
   #quoteAttribution {
-    font-size: 18px;
+    font-size: 9px;
+    margin-top: 10px;
   }
 
   button {
@@ -35,6 +37,8 @@
     margin-top: 30px;
   }
 }
+
+/* Desktop View */
 
 body {
     background: #1f223b;
