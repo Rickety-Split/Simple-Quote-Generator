@@ -1,5 +1,10 @@
 @media only screen and (max-width: 600px) {
   /* Adjust styles for small screens */
+
+  * {
+    margin: 0 auto;
+  }
+
   body {
     margin-top: 50px;
     color: #dbdbd9;
